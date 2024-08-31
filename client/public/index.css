@@ -1,0 +1,159 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #7a72bd;
+  
+  
+}
+
+.heading{
+  font-size:x-large;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ 
+}
+
+
+.body-section{
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+
+.show-task{
+  background-color:#c7ffd8;
+  display: inline-block;
+  min-width: 500px;
+  min-height: 400px;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.task-heading-div{
+  flex: 0 0 auto;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 10px;
+
+
+}
+
+
+.task-heading{
+  font-size: 35px;
+  color: #545454;
+  padding: 0;
+  margin: 0;
+
+}
+
+/* Unordered List Styling */
+ul.styled-list {
+  list-style-type: none; /* Removes default bullets */
+  padding: 0;            /* Removes default padding */
+  margin: 20px auto;     /* Centers the list horizontally and adds vertical margin */
+  background: #f9f9f9;   /* Light background for the list */
+  border-radius: 12px;   /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  max-width: 80%;        /* Limits width to 80% of its parent container */
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+/* List Item Styling */
+ul.styled-list li {
+  padding: 15px 20px;        /* Padding inside each list item */
+  border-bottom: 1px solid #ddd; /* Divider between items */
+  font-size: 18px;           /* Increased font size */
+  color: #333;               /* Text color */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+/* Last Item Border Removal */
+ul.styled-list li:last-child {
+  border-bottom: none; /* Remove border from the last item */
+}
+
+/* List Item Hover Effect */
+ul.styled-list li:hover {
+  background-color: #f1f1f1; /* Slightly darker background on hover */
+}
+
+/* Optional Bullet Design */
+ul.styled-list li::before {
+  content: '•';              /* Custom bullet */
+  color: #6257e3;            /* Bullet color */
+  font-size: 24px;           /* Increased bullet size */
+  margin-right: 10px;        /* Space between bullet and text */
+  vertical-align: middle;    /* Aligns the bullet with the text */
+}
+
+
+/* Container Styling */
+.input-section {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
+  max-height: 150px;
+}
+
+/* Input Field Styling */
+ input {
+  width: calc(100% - 30px); /* Adjust width to account for padding */
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+/* Input Field Hover and Focus */
+ input:hover,
+ input:focus {
+  border-color: #6257e3;
+  box-shadow: 0 0 8px rgba(98, 87, 227, 0.3);
+  outline: none;
+}
+
+ button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #6257e3;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+ button:hover {
+  background-color: #5246c8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+ button:active {
+  background-color: #4138a4;
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
